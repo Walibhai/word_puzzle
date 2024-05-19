@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Puzzle</title>
+    <link rel="icon" href="wordpress_PNG6.png"> 
+    <link rel="stylesheet" href="style.css"/>
+</head>
+    <body>
+       <!-- for pop up of success -->
+       <dialog id="popup" style="width:60%; background-color:black; color: white; border:5px solid green; margin: auto;">  
+        <p id="popup-message"></p>  
+        <button id="close" onclick="history.go(-1)">Exit</button>  
+        <button id="replay" onClick="window.location.reload(true)">Replay</button>
+        </dialog> 
+
+
+        <div class="game-container">
+            <div class="title-container">
+                <h1>Word Puzzle</h1>
+            </div>
+            <div class="message-container"></div>
+            <div class="tile-container"></div>
+            <div class="key-container"></div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
