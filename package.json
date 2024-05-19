@@ -1,0 +1,25 @@
+{
+  "name": "word-puzzle",
+  "version": "1.0.0",
+  "description": "A Game of Wordle with the benefit of 2x API from RapidAPI",
+  "main": "app.js",
+  "scripts": {
+    
+    "frontend": "cd frontend && nodemon app.js",
+    "start:backend": " nodemon index.js",
+    
+   
+  },
+  "author": "Md Noorullah",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "16.15.0"
+  }
+}
